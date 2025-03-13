@@ -24,7 +24,7 @@ const Page = () => {
   return (
     <>
       <Stack.Screen options={{ header: () => <Header /> }} />
-      <View style={[styles.container, { paddingTop: 40 }]}>
+      <View style={[styles.container]}>
         <ScrollView
           showsVerticalScrollIndicator={false}
           contentContainerStyle={{ paddingBottom: 110 }}

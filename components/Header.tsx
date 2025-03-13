@@ -6,7 +6,7 @@ import Fonts from "@/constants/Fonts";
 
 const Header = () => {
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={styles.container} edges={["top"]}>
       <View style={styles.header}>
         <View style={styles.profileContainer}>
           <Image
@@ -32,7 +32,6 @@ export default Header;
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     backgroundColor: Colors.black,
   },
   header: {
